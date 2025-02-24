@@ -35,7 +35,7 @@ This is a **Flask-based web application** that predicts the best **crop** to gro
 │── app.py                         # Flask Backend  
 │── requirements.txt                # Required Dependencies  
 │── README.md                       # Project Documentation  
-
+```
 ---
 
 ##  🚀 Installation & Usage 
@@ -44,11 +44,14 @@ This is a **Flask-based web application** that predicts the best **crop** to gro
 git clone https://github.com/your-repo/crop-fertilizer-prediction.git
 cd crop-fertilizer-prediction
 ``` 
-- **🔹 Step 2: Install Dependencies**: 
+- **🔹 Step 2: Install Dependencies**:
+
 `pip install -r requirements.txt`
 
-- **Step 3: Run Flask Application**: 
-`python app.py`  
+- **Step 3: Run Flask Application**:
+  
+`python app.py`
+
 - **Step 4: Access the Web UI**: 
     - Open http://127.0.0.1:5000/ in a browser.
     - Select Crop Recommendation or Fertilizer Prediction.
