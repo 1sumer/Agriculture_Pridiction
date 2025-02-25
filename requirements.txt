@@ -1,5 +1,7 @@
-flask==2.2.5
-pandas==1.5.3
+Flask
 numpy
+pandas
 scikit-learn
-gunicorn==20.1.0
+pickle-mixin
+warnings
+gunicorn
