@@ -42,7 +42,7 @@ This is a **Flask-based web application** that predicts the best **crop** to gro
 - **🔹 Step 1: Clone the Repository**: 
 ```
 git clone https://github.com/your-repo/crop-fertilizer-prediction.git
-cd crop-fertilizer-prediction
+cd Crop-Fertilizer-Prediction
 ``` 
 - **🔹 Step 2: Install Dependencies**:
 
@@ -56,6 +56,14 @@ cd crop-fertilizer-prediction
     - Open http://127.0.0.1:5000/ in a browser.
     - Select Crop Recommendation or Fertilizer Prediction.
     - Enter values and get predictions instantly! 🎯
+
+---
+
+## Project URL's
+
+`https://github.com/1sumer/Agriculture_Pridiction`
+
+`https://1sumer.github.io/Agriculture_Pridiction/`
 
 ---
 
