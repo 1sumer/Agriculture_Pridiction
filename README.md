@@ -63,7 +63,7 @@ cd Crop-Fertilizer-Prediction
 
 `https://github.com/1sumer/Agriculture_Pridiction`
 
-`https://1sumer.github.io/Agriculture_Pridiction/`
+https://1sumer.github.io/Agriculture_Pridiction/
 
 ---
 
