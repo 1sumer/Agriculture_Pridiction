@@ -17,7 +17,7 @@ This is a **Flask-based web application** that predicts the best **crop** to gro
 - **Backend**: Flask, Scikit-learn, Pandas, NumPy  
 - **Frontend**: HTML, CSS  
 - **ML Model**: Random Forest Classifier  
-- **Deployment**: Can be hosted on **Heroku, AWS, or any Flask-compatible server**  
+- **Deployment**: Render Cloud (Can be hosted on **Heroku, AWS, or any Flask-compatible server**)  
 
 ---
 
@@ -59,11 +59,12 @@ cd Crop-Fertilizer-Prediction
 
 ---
 
-## Project URL's
+## 🌍 Deployment on Render Cloud
 
-`https://github.com/1sumer/Agriculture_Pridiction`
+The project is live on Render Cloud. Check it out:
 
-[https://1sumer.github.io/Agriculture_Pridiction/](https://agriculture-pridiction.onrender.com/)
+- 🔗 **Live App**: https://agriculture-pridiction.onrender.com/
+- 📂 **GitHub Repo**: https://github.com/1sumer/Agriculture_Pridiction
 
 ---
 
@@ -76,11 +77,7 @@ cd Crop-Fertilizer-Prediction
 - 🔹 Add real-time weather API for better predictions.
 - 🔹 Implement Deep Learning models for improved accuracy.
 - 🔹 Develop a mobile app version for Android/iOS.
-
----
-
-## 📜 License  
-- Feel free to fork this repository, make improvements, and submit a pull request. 🚀
+- 🔹 Deploy on AWS SageMaker for scalable AI solutions.
 
 ---
 
