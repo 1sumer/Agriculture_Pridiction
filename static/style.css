@@ -4,11 +4,48 @@ body {
     background-size: cover;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: green;
+    border-radius: 5px;
 }
 
 .container {
-    max-width: 500px;
-    margin: 50px auto;
+    max-width: 90%;
+    margin: 80px auto 50px;
     padding: 20px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
@@ -26,6 +63,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
 }
 
 label {
@@ -34,18 +72,20 @@ label {
 }
 
 input, select {
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
     border: none;
+    width: 100%;
 }
 
 button {
-    padding: 10px;
+    padding: 12px;
     background-color: green;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
@@ -54,12 +94,42 @@ button:hover {
 
 .btn {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: green;
     color: white;
     border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
 }
 
 .btn:hover {
     background-color: darkgreen;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+.home-bg { background: url("image.jpg") no-repeat center center fixed; background-size: cover; }
+.crop-bg { background: url("Croping.png") no-repeat center center fixed; background-size: cover; }
+.fertilizer-bg { background: url("fertiimg.jpg") no-repeat center center fixed; background-size: cover; }
+.result-bg { background: url("result.jpeg") no-repeat center center fixed; background-size: cover; }
